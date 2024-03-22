@@ -1,0 +1,4 @@
+# This example assumes that there are two databases configured according to shop.png
+tools: ../tool.gpt
+
+How many people bought gloves, and who were they? What cities do they live in? Who are their best friends?

@@ -1,0 +1,6 @@
+Description: Queries Notion to search for pages and databases, and print the contents of pages and databases.
+Args: command: Must be one of "search", "page", or "database".
+Args: query: (optional for command "search") The search query. If no query is provided, all pages and databases will be listed.
+Args: id: (required for command "page" or "database") The ID of the page or database to print.
+
+#!/usr/bin/env node --no-warnings ${GPTSCRIPT_TOOL_DIR}/index.js
