@@ -17,6 +17,10 @@ content` and `Insert content`, as the tool does not need these permissions.) It 
 information, but whenever users are mentioned inside a database or page, the information may not be displayed
 properly if the integration does not have permission to read user information.
 
+For each page that you want the tool to have access to, you will need to explicitly [connect it to your integration](https://www.notion.so/help/add-and-manage-connections-with-the-api#add-connections-to-pages).
+This will also automatically connect all child pages and child databases. Newly connected pages may take a few minutes
+before they show up in search results.
+
 ## Example
 
 Assuming this database layout:
