@@ -9,9 +9,6 @@ export function printSearchResults(res) {
             case "database":
                 databases.push(r)
                 break
-            default:
-                console.log("wow")
-                break
         }
     }
     if (pages.length > 0) {
